@@ -1,1 +1,1 @@
-web: java -cp target/classes/:target/dependency/* com.betapp.WicketApplication.Class
+web: java -cp target/classes/:target/dependency/* com.betapp.WicketApplication
