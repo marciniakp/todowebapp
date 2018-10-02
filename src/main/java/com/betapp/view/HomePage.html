@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+    <meta charset="utf-8"/>
+    <title>Apache Wicket Quickstart</title>
+    <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:regular,bold' rel='stylesheet'
+          type='text/css'/>
+
+    <style>
+    </style>
+</head>
+
+<body>
+<wicket:extend>
+    <div class="alert alert-info text-center"
+         style="width:60%; margin:auto; margin-bottom:20px; margin-top:20px">
+        <span wicket:id="infoLabel"></span>
+    </div>
+<div wicket:id="alertLabel" class="alert alert-danger text-center"
+     style="width:60%; margin:auto; margin-bottom:20px; margin-top:20px"></div>
+<div class="row" style="max-width:700px; margin:auto; margin-top: 20px">
+    <form wicket:id="form">
+        <div class="text-center">
+            <div class="form-group text-center" style="margin:0 auto">
+                <label for="input">Wpisz zadanie</label>
+                <input wicket:id="input" class="form-control" id="input" rows="3"/>
+                <br/>
+                <button wicket:id="submit" class="btn btn-primary"></button>
+                <br/><br/>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="panel panel-primary" style="max-width:700px; margin:auto">
+    <div class="panel-heading text-center">TODO's</div>
+    <div class="text-center">
+        <table class="table table-hover" style="margin-bottom:0">
+            <tbody>
+            <tr>
+                <td class="table table-light" style="text-align:center; margin:0 auto" wicket:id="firstRecordInfo"></td>
+            </tr>
+            <tr class="table table-danger" style="background-color:#FFDDDD; cursor: pointer;"wicket:id="notDone">
+                <td wicket:id="notDoneTodos"></td>
+            </tr>
+            <tr class="table table-success" style="background-color: #CCEECC; cursor: pointer;" wicket:id="done">
+                <td wicket:id="doneTodos"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</wicket:extend>
+</body>
+</html>

@@ -1,0 +1,11 @@
+﻿html {
+    background-image: url("background.jpg");
+}
+
+#header {
+    width:50%;
+}
+
+.btn-primary {
+    background-color: red;
+}

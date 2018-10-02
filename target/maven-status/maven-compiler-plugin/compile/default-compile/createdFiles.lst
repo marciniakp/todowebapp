@@ -1,0 +1,13 @@
+com\betapp\initialize\WebInitializer.class
+com\betapp\view\TodoPanel$1.class
+com\betapp\services\TODOService.class
+com\betapp\repositories\TODORepository.class
+com\betapp\view\TodoPanel$2.class
+com\betapp\model\TODO.class
+com\betapp\initialize\WarInitializer.class
+com\betapp\view\HomePage$AddTodoForm.class
+com\betapp\view\HomePage$AddTodoForm$1.class
+com\betapp\view\HomePage.class
+com\betapp\view\TodoPanel.class
+com\betapp\utils\WiaSession.class
+com\betapp\WicketApplication.class
