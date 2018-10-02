@@ -1,1 +1,1 @@
-web: java -cp target/classes/:target/dependency/* com.betapp.WicketApplication
+web: java -Dserver.port=$PORT -jar target/*.jar
